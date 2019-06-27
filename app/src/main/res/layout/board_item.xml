@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/answer"/>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:text="제목"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/mpbold"
+        android:textColor="#000000"/>
+
+
+    <TextView
+        android:id="@+id/gle"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:text="글"
+        android:textSize="15dp"
+        android:fontFamily="@font/mpbold"
+        android:textColor="#000000"
+        android:maxLines="2"
+        android:ellipsize="end"/>
+
+</LinearLayout>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+    <TextView
+        android:id="@+id/bID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID"
+        android:layout_marginRight="10dp"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="@font/mpbold"
+        android:layout_marginTop="5dp"
+        android:visibility="invisible"/>
+
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="end"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/mpbold"
+        android:text="날짜"
+        android:textColor="#000000"
+        android:textSize="12dp" />
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:text="이름"
+            android:textSize="12dp"
+            android:visibility="gone"
+            android:fontFamily="@font/mpbold"
+            android:textColor="#000000"/>
+    </LinearLayout>
+</LinearLayout>

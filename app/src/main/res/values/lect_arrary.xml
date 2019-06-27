@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="강의">
+        <item>모바일 프로그래밍</item>
+        <item>현대인과 기독교</item>
+        <item>확률과 랜덤 프로세스</item>
+        <item>임베디드 운영체제</item>
+        <item>임베디드 시스템</item>
+        <item>디지털 통신 시스템</item>
+
+    </string-array>
+</resources>

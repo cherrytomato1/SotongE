@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_main"
+    android:orientation="vertical">
+    t
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#967fff"
+        android:orientation="horizontal">
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/sub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/mpbold"
+                android:text="강의명"
+                android:textColor="#ffffff"
+                android:textSize="15dp" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/pro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/mpbold"
+                android:text="교수님 이름"
+                android:textColor="#ffffff"
+                android:textSize="15dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/namenum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/mpbold"
+                android:text="이름 / 학번"
+                android:textColor="#ffffff"
+                android:textSize="15dp" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <CheckBox
+                android:id="@+id/anon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:checked="true"
+                android:fontFamily="@font/mpbold"
+                android:scaleX="1.5"
+                android:scaleY="1.5"
+                android:text="익명"
+                android:textColor="#ffffff"
+                android:theme="@style/CheckBox"
+                android:visibility="invisible" />
+
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/mpbold"
+        android:text="강의 평가"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/nemo2"
+        android:elevation="5dp"
+        android:fontFamily="@font/mpbold"
+        android:gravity="center"
+        android:text="5 : 매우좋음    4 : 좋음    3 : 보통    2 : 낮음    1 : 매우낮음"
+        android:textColor="#000000"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/qnm1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/mpbold"
+        android:text="Q1. 이번 강의는 만족스러웠습니까?"
+        android:textColor="#000000"
+        android:textSize="15dp" />
+
+    <RadioGroup
+        android:id="@+id/q1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:theme="@style/RadioButton">
+
+        <RadioButton
+            android:id="@+id/q1_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:fontFamily="@font/mpbold"
+            android:text="5"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+        <RadioButton
+            android:id="@+id/q1_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:fontFamily="@font/mpbold"
+            android:text="4"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+        <RadioButton
+            android:id="@+id/q1_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:fontFamily="@font/mpbold"
+            android:text="3"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+        <RadioButton
+            android:id="@+id/q1_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:fontFamily="@font/mpbold"
+            android:text="2"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+        <RadioButton
+            android:id="@+id/q1_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:fontFamily="@font/mpbold"
+            android:text="1"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/qnm2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/mpbold"
+        android:text="Q2. 강의의 난이도는 어려웠습니까?"
+        android:textColor="#000000"
+        android:textSize="15dp" />
+
+    <RadioGroup
+        android:id="@+id/q2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:theme="@style/RadioButton">
+
+        <RadioButton
+            android:id="@+id/q2_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:fontFamily="@font/mpbold"
+            android:text="5"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+        <RadioButton
+            android:id="@+id/q2_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:fontFamily="@font/mpbold"
+            android:text="4"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+        <RadioButton
+            android:id="@+id/q2_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:fontFamily="@font/mpbold"
+            android:text="3"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+        <RadioButton
+            android:id="@+id/q2_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:fontFamily="@font/mpbold"
+            android:text="2"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+        <RadioButton
+            android:id="@+id/q2_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:fontFamily="@font/mpbold"
+            android:text="1"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/qnm3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/mpbold"
+        android:text="Q3. 강의의 진도는 빨랐습니까?"
+        android:textColor="#000000"
+        android:textSize="15dp" />
+
+    <RadioGroup
+        android:id="@+id/q3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:theme="@style/RadioButton">
+
+        <RadioButton
+            android:id="@+id/q3_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:fontFamily="@font/mpbold"
+            android:text="5"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+        <RadioButton
+            android:id="@+id/q3_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:fontFamily="@font/mpbold"
+            android:text="4"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+        <RadioButton
+            android:id="@+id/q3_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:fontFamily="@font/mpbold"
+            android:text="3"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+        <RadioButton
+            android:id="@+id/q3_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:fontFamily="@font/mpbold"
+            android:text="2"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+        <RadioButton
+            android:id="@+id/q3_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:fontFamily="@font/mpbold"
+            android:text="1"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/qnm4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/mpbold"
+        android:text="Q4. 이번 강의로 인해 더 나아졌습니까?"
+        android:textColor="#000000"
+        android:textSize="15dp" />
+
+    <RadioGroup
+        android:id="@+id/q4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:theme="@style/RadioButton">
+
+        <RadioButton
+            android:id="@+id/q4_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:fontFamily="@font/mpbold"
+            android:text="5"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+        <RadioButton
+            android:id="@+id/q4_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:fontFamily="@font/mpbold"
+            android:text="4"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+        <RadioButton
+            android:id="@+id/q4_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:fontFamily="@font/mpbold"
+            android:text="3"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+        <RadioButton
+            android:id="@+id/q4_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:fontFamily="@font/mpbold"
+            android:text="2"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+        <RadioButton
+            android:id="@+id/q4_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:fontFamily="@font/mpbold"
+            android:text="1"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/qnm5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/mpbold"
+        android:text="Q5. 과제의 난이도는 어렵습니까?"
+        android:textColor="#000000"
+        android:textSize="15dp" />
+
+    <RadioGroup
+        android:id="@+id/q5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:theme="@style/RadioButton">
+
+        <RadioButton
+            android:id="@+id/q5_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:fontFamily="@font/mpbold"
+            android:text="5"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+        <RadioButton
+            android:id="@+id/q5_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:fontFamily="@font/mpbold"
+            android:text="4"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+        <RadioButton
+            android:id="@+id/q5_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:fontFamily="@font/mpbold"
+            android:text="3"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+        <RadioButton
+            android:id="@+id/q5_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:fontFamily="@font/mpbold"
+            android:text="2"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+        <RadioButton
+            android:id="@+id/q5_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:fontFamily="@font/mpbold"
+            android:text="1"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+
+    </RadioGroup>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/mpbold"
+        android:text="교수님께 하고싶은 말"
+        android:textColor="#000000"
+        android:textSize="15dp" />
+
+
+    <EditText
+        android:id="@+id/evalEt"
+        android:layout_width="350dp"
+        android:layout_height="170dp"
+        android:layout_gravity="center"
+        android:background="@drawable/nemo"
+        android:elevation="5dp"
+        android:fontFamily="@font/mpbold"
+        android:gravity="start"
+        android:paddingLeft="15dp"
+        android:paddingTop="5dp"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/evalfinish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/stunemo"
+        android:fontFamily="@font/mpbold"
+        android:text="완 료"
+        android:textSize="15dp" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/help" />
+
+        <Button
+            android:id="@+id/help"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="#00000000"
+            android:fontFamily="@font/mpbold"
+            android:gravity="bottom"
+            android:text="도움말"
+            android:textColor="#888888"
+            android:textSize="20dp" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/mpbold"
+                android:text="성결대학교 정보통신공학과"
+                android:textColor="#888888" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/mpbold"
+                android:text="피드백 어플리케이션 소통e"
+                android:textColor="#888888" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CheckBox" parent="@style/Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:colorControlNormal">#000000</item>
+        <item name="android:colorControlActivated">#0091ea</item>
+        <item name="android:colorControlHighlight">#c51162</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat</item>
+        <item name="android:actionBarSize">30dp</item>
+    </style>
+</resources>

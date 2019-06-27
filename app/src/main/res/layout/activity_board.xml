@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/boardlay"
+    android:background="@drawable/background_main">
+    <LinearLayout
+        android:id="@+id/bar" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#967fff"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/board_backbtn"
+            android:layout_width="54dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="@font/mpbold"
+            android:text="게시판"
+            android:layout_gravity="center_vertical"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/namenum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:fontFamily="@font/mpbold"
+            android:text="이름(학번)"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:layout_marginRight="15dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+        <TextView
+            android:id="@+id/let_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="강의명"
+            android:textSize="30dp"
+            android:fontFamily="@font/mpbold"
+            android:textColor="#000000"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/make"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="글쓰기"
+            android:fontFamily="@font/mpbold"
+            android:textSize="20dp"
+            android:background="@drawable/stunemo"
+            android:layout_gravity="right"/>
+    </LinearLayout>
+    <ListView
+        android:id="@+id/board_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#000000"
+        android:background="#eaf1fa"
+        android:dividerHeight="1.5dp"
+        android:layout_weight="1"
+        android:visibility="visible">
+    </ListView>
+
+</LinearLayout>

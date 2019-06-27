@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#96d5cc"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#4c291c"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/backbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/back" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:src="@drawable/jointext" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/infomation" />
+
+    <EditText
+        android:id="@+id/etId"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/nemo"
+        android:hint="ID"
+        android:paddingLeft="15dp"
+        android:textColorHint="#888888"
+        android:textColor="#000000"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4c291c"
+        android:text="아이디 중복 체크"
+        android:fontFamily="@font/mpbold"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/chkID"
+        android:onClick="CHKIDL"
+        android:textSize="15dp"/>
+
+    <EditText
+        android:id="@+id/etPwd"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="45dp"
+        android:paddingLeft="15dp"
+        android:background="@drawable/nemo"
+        android:hint="PW"
+        android:inputType="textPassword"
+        android:textColorHint="#888888"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:id="@+id/etPwdChk"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/nemo"
+        android:hint="PW 확인"
+        android:inputType="textPassword"
+        android:paddingLeft="15dp"
+        android:textColorHint="#888888"
+        android:textColor="#000000"/>
+
+
+    <Button
+        android:id="@+id/finishbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="btnNEWacnt"
+        android:layout_marginTop="10dp"
+        android:background="#4c291c"
+        android:text="완 료"
+        android:textSize="15dp"
+        android:fontFamily="@font/mpbold"/>
+
+</LinearLayout>

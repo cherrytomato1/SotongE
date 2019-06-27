@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/probackground">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffb5a1"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/make_backbtn"
+            android:layout_width="54dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/back" />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/mpbold"
+            android:text="글 작성하기"
+            android:layout_gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/make"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:fontFamily="@font/mpbold"
+            android:text="작성"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/nemo3"/>
+    </LinearLayout>
+    <EditText
+        android:elevation="5dp"
+        android:id="@+id/title"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/nemo"
+        android:paddingLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:hint="제목"
+        android:fontFamily="@font/mpbold"
+        android:textColorHint="#888888"/>
+    <EditText
+        android:elevation="5dp"
+        android:id="@+id/textboard"
+        android:layout_width="350dp"
+        android:layout_height="170dp"
+        android:layout_gravity="center"
+        android:background="@drawable/nemo"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        android:gravity="top"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000"
+        android:hint="여기를 눌러서 글을 작성할 수 있습니다."
+        android:textColorHint="#888888"
+        android:fontFamily="@font/mpbold"/>
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/mpbold"
+        android:text="성결대학교 정보통신공학과"
+
+        android:textColor="#888888" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="@font/mpbold"
+        android:text="피드백 어플리케이션 소통e"
+        android:textColor="#888888" />
+</LinearLayout>

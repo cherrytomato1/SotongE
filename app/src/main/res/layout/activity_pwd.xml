@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pwdlay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_main"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#967fff"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/pwd_backbtn"
+            android:layout_width="54dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="@font/mpbold"
+            android:text="비밀번호 변경"
+            android:textColor="#ffffff"
+            android:textSize="15dp" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/namenum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="15dp"
+            android:fontFamily="@font/mpbold"
+            android:text="이름(학번)"
+            android:textColor="#ffffff"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/mpbold"
+        android:text="현재 사용중인 비밀번호"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <EditText
+        android:elevation="5dp"
+        android:id="@+id/etLGNpw"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/nemo"
+        android:fontFamily="@font/mpbold"
+        android:hint="PW"
+        android:inputType="textPassword"
+        android:paddingLeft="15dp"
+        android:textColor="#000000"
+        android:textColorHint="#888888" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/mpbold"
+        android:text="사용할 비밀번호"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <EditText
+        android:elevation="5dp"
+        android:id="@+id/etUSEpw"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/nemo"
+        android:fontFamily="@font/mpbold"
+        android:hint="사용할 PW"
+        android:inputType="textPassword"
+        android:paddingLeft="15dp"
+        android:textColor="#000000"
+        android:textColorHint="#888888" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/mpbold"
+        android:text="비밀번호 확인"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <EditText
+        android:elevation="5dp"
+        android:id="@+id/etCHKpw"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/nemo"
+        android:fontFamily="@font/mpbold"
+        android:hint="PW 확인"
+        android:inputType="textPassword"
+        android:paddingLeft="15dp"
+        android:textColor="#000000"
+        android:textColorHint="#888888" />
+
+    <Button
+        android:id="@+id/completebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/stunemo"
+        android:fontFamily="@font/mpbold"
+        android:onClick="btnChangePW"
+        android:text="완 료"
+        android:textSize="20dp" />
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/mpbold"
+        android:text="성결대학교 정보통신공학과"
+
+        android:textColor="#888888" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="@font/mpbold"
+        android:text="피드백 어플리케이션 소통e"
+        android:textColor="#888888" />
+</LinearLayout>

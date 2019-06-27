@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="RadioButton" parent="@style/Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:colorControlActivated">#000000</item>
+        <item name="android:colorControlHighlight">#c51162</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat</item>
+        <item name="android:actionBarSize">30dp</item>
+        <item name="android:colorBackground">#ffffff</item>
+
+    </style>
+</resources>

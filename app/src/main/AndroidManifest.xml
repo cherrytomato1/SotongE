@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hyokwon.sotong"
+    android:installLocation="preferExternal">
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true"></uses-feature>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_sogtonge"
+        android:label="소통e"
+        android:roundIcon="@mipmap/ic_launcher_sogtonge_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar"
+        android:usesCleartextTraffic="true">
+
+        <activity
+            android:name=".LoadingAcitivty"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".JoinActivity"
+            android:label="소통e"
+            android:windowSoftInputMode="stateHidden">
+
+        </activity>
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".CameraActivity"/>
+        <activity android:name=".MenuActivity"/>
+        <activity android:name=".evalActivity"/>
+        <activity android:name=".Menu2Activity"/>
+        <activity android:name=".feedListActivity"/>
+        <activity android:name=".waitActivity"/>
+        <activity android:name=".pwdActivity"/>
+        <activity android:name=".optionActivity"/>
+        <activity android:name=".lectureActivity"/>
+        <activity android:name=".lecSerchActivity"/>
+        <activity android:name=".BoardActivity"/>
+        <activity android:name=".WriteboardActivity"/>
+        <activity android:name=".BoardViewActivity"/>
+        <activity android:name=".LastevalActivity"/>
+        <activity android:name=".ViewevalActivity"/>
+        <activity android:name=".feedBackListActivity"/>
+        <activity android:name=".ViewfeedbackActivity"/>
+        <activity android:name=".SetevalActiviy"/>
+    </application>
+
+</manifest>
