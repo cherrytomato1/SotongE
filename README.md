@@ -34,7 +34,7 @@
 
 - 회원가입 인증
 <img src=https://github.com/cherrytomato1/mobile_programming/blob/master/images/auth.bmp/>
-<img src=https://github.com/cherrytomato1/mobile_programming/blob/master/images/watingAuth.bmp/>
+<img src=https://github.com/cherrytomato1/mobile_programming/blob/master/images/waitingAuth.bmp/>
 <br/>
 
 - 메뉴 화면
