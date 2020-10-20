@@ -21,64 +21,64 @@
 ## 프로젝트 구조
 
 - 기능블록도
-<img src=https://github.com/cherrytomato1/mobile_programming/blob/master/images/blockDiagram.bmp />
+<img src=https://github.com/cherrytomato1/mobile_programming/blob/master/images/blockDiagram.bmp/>
 
 - 데이터 베이스 구조
-<img src=https://github.com/cherrytomato1/mobile_programming/blob/master/images/tableList.bmp />
+<img src=https://github.com/cherrytomato1/mobile_programming/blob/master/images/tableList.bmp/>
 
 ## 화면 구성
 #### 학생용 화면
-- 1. 메인 화면
-<img src=https://github.com/cherrytomato1/mobile_programming/blob/master/images/main.PNG />
-
+- 메인 화면
+<img src=https://github.com/cherrytomato1/mobile_programming/blob/master/images/main.PNG/>
 <br/>
-- 2. 회원가입 인증
-<img src=https://github.com/cherrytomato1/mobile_programming/blob/master/images/auth.bmp />
-<img src=https://github.com/cherrytomato1/mobile_programming/blob/master/images/watingAuth.bmp />
 
+- 회원가입 인증
+<img src=https://github.com/cherrytomato1/mobile_programming/blob/master/images/auth.bmp/>
+<img src=https://github.com/cherrytomato1/mobile_programming/blob/master/images/watingAuth.bmp/>
 <br/>
-- 3. 메뉴 화면
-<img src=https://github.com/cherrytomato1/mobile_programming/blob/master/images/menu.bmp />
 
+- 메뉴 화면
+<img src=https://github.com/cherrytomato1/mobile_programming/blob/master/images/menu.bmp/>
 <br/>
-- 4. 강의 추가
-<img src=https://github.com/cherrytomato1/mobile_programming/blob/master/images/addLecture.bmp />
 
+- 강의 추가
+<img src=https://github.com/cherrytomato1/mobile_programming/blob/master/images/addLecture.bmp/>
 <br/>
-- 5. 강의 평가
-<img src=https://github.com/cherrytomato1/mobile_programming/blob/master/images/evaluation.bmp />
 
+- 강의 평가
+<img src=https://github.com/cherrytomato1/mobile_programming/blob/master/images/evaluation.bmp/>
 <br/>
-- 6. 강의 공지
-<img src=https://github.com/cherrytomato1/mobile_programming/blob/master/images/NoticeList.bmp />
 
+- 강의 공지
+<img src=https://github.com/cherrytomato1/mobile_programming/blob/master/images/NoticeList.bmp/>
 <br/>
-- 7. 피드백
-<img src=https://github.com/cherrytomato1/mobile_programming/blob/master/images/viewFeedback.bmp />
 
+- 피드백
+<img src=https://github.com/cherrytomato1/mobile_programming/blob/master/images/viewFeedback.bmp/>
 <br/>
-- 8. 도움말
-<img src=https://github.com/cherrytomato1/mobile_programming/blob/master/images/help.bmp />
+
+- 도움말
+<img src=https://github.com/cherrytomato1/mobile_programming/blob/master/images/help.bmp/>
 
 
 #### 교수용 화면
-<br/>
-- 1. 메인메뉴
-<img src=https://github.com/cherrytomato1/mobile_programming/blob/master/images/menu2.bmp />
 
+- 메인메뉴
+<img src=https://github.com/cherrytomato1/mobile_programming/blob/master/images/menu2.bmp/>
 <br/>
-- 2. 공지 작성
-<img src=https://github.com/cherrytomato1/mobile_programming/blob/master/images/writeNotice.bmp />
 
+- 공지 작성
+<img src=https://github.com/cherrytomato1/mobile_programming/blob/master/images/writeNotice.bmp/>
 <br/>
-- 3. 문항 작성
-<img src=https://github.com/cherrytomato1/mobile_programming/blob/master/images/writeQuestion.bmp />
 
+- 문항 작성
+<img src=https://github.com/cherrytomato1/mobile_programming/blob/master/images/writeQuestion.bmp/>
 <br/>
-- 4. 피드백 남기기
-<img src=https://github.com/cherrytomato1/mobile_programming/blob/master/images/feedback.bmp />
+
+- 피드백 남기기
+<img src=https://github.com/cherrytomato1/mobile_programming/blob/master/images/feedback.bmp/>
 
 
-<br/>
+
 ## 수상
-<img src=https://github.com/cherrytomato1/mobile_programming/blob/master/images/paper.PNG />
+<img src=https://github.com/cherrytomato1/mobile_programming/blob/master/images/paper.PNG/>
