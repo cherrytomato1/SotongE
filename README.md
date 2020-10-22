@@ -83,7 +83,7 @@
 
 ## 수상
 <span>
-  <img src=https://github.com/cherrytomato1/mobile_programming/blob/master/images/paper.PNG width="420px" height="900px"/>
+  <img src=https://github.com/cherrytomato1/mobile_programming/blob/master/images/paper.PNG width="300px" height="900px"/>
   <img src=https://github.com/gyrnjs12/mobile_programming/blob/master/images/hyo_paper.jpg width="450px" height="900px"/>
 </span
 
