@@ -83,4 +83,4 @@
 
 ## 수상
 <img src=https://github.com/cherrytomato1/mobile_programming/blob/master/images/paper.PNG/>
-<img src=https://github.com/gyrnjs12/mobile_programming/blob/master/images/hyokwon_paper.jpg/>
+<img src=https://github.com/gyrnjs12/mobile_programming/blob/master/images/hyo_paper.jpg/>
