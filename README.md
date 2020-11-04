@@ -12,7 +12,7 @@
   팀원 : 주성호
 
 ## 개발환경
-- 앱 : JAVA/XML
+- 앱 : JAVA
 - 서버 : Apache, Php
 - DB : Mysql
 
