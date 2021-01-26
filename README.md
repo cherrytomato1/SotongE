@@ -33,17 +33,10 @@
 <img src=https://github.com/cherrytomato1/mobile_programming/blob/master/images/main.PNG/>
 <br/>
 
-<details>
-<summary> </summary>
-<div markdown="1">
 - 회원가입 인증
 <img src=https://github.com/cherrytomato1/mobile_programming/blob/master/images/auth.bmp/>
 <img src=https://github.com/cherrytomato1/mobile_programming/blob/master/images/waitingAuth.bmp/>
 <br/>
-
-</div>
-</details>
-
 
 - 메뉴 화면
 <img src=https://github.com/cherrytomato1/mobile_programming/blob/master/images/menu.bmp/>
