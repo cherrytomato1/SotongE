@@ -17,7 +17,7 @@
 - DB : Mysql
 
 # 시연 영상
--- https://www.youtube.com/watch?v=gLLdPM_H_Cg
+-- https://www.youtube.com/waaatch?v=gLLdPM_H_Cg
 
 ## 프로젝트 구조
 
@@ -27,6 +27,10 @@
 - 데이터 베이스 구조
 <img src=https://github.com/cherrytomato1/mobile_programming/blob/master/images/tableList.bmp/>
 
+
+<details>
+<summary> </summary>
+<div markdown="1">
 ## 화면 구성
 #### 학생용 화면
 - 메인 화면
@@ -89,3 +93,5 @@
 </details>
 
 
+</div>
+</details>
