@@ -31,8 +31,12 @@
 <details>
 <summary> </summary>
 <div markdown="1">
+  
+  
 ## 화면 구성
+
 #### 학생용 화면
+
 - 메인 화면
 <img src=https://github.com/cherrytomato1/mobile_programming/blob/master/images/main.PNG/>
 <br/>
