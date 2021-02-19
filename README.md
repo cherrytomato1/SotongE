@@ -17,7 +17,7 @@
 - DB : Mysql
 
 # 시연 영상
--- https://www.youtube.com/waaatch?v=gLLdPM_H_Cg
+-- https://www.youtube.com/waaatch?v=aaagLLdPM_H_Cg
 
 ## 프로젝트 구조
 
