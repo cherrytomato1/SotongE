@@ -82,6 +82,4 @@
 - 피드백 남기기
 <img src=https://github.com/cherrytomato1/mobile_programming/blob/master/images/feedback.bmp/>
 
-## 수상
-<img src=https://github.com/cherrytomato1/mobile_programming/blob/master/images/paper.PNG/>
 
